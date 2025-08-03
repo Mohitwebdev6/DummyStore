@@ -19,7 +19,7 @@ function Nav() {
   const hoverClass = "hover:scale-110 transition-transform duration-300 ease-in-out";
 
   return (
-    <nav className="bg-white shadow-md px-4 rounded-xl py-3">
+    <nav className="bg-white shadow-md px-4 rounded-xl py-3 z-100">
       <div className={`container mx-auto flex items-center justify-between ` }>
         <NavLink to="/" className="text-2xl font-bold text-blue-600">
           <h1>
