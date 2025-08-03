@@ -38,7 +38,7 @@ export default function category() {
           categorys
         </h1>
         <NavLink to="/products">
-          <li className="hover:bg-white hover:text-black my-2 px-2 py-1 hover:transition-all hover:duration-300 rounded-md cursor-pointer">
+          <li className="hover:bg-white active:bg-blue-500 hover:text-black my-2 px-2 py-1 hover:transition-all hover:duration-300 rounded-md cursor-pointer">
             All
           </li>
         </NavLink>
