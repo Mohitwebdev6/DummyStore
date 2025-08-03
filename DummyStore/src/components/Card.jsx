@@ -4,7 +4,7 @@ import React from "react";
     const { title, image, price, rating } = product.product;
 
   return (
-    <div className="bg-white mb-3 shadow-md hover:cursor-pointer rounded-lg overflow-hidden w-xs">
+    <div className="bg-white hover:scale-110 transition-transform duration-300 ease-in-out mb-3 shadow-md hover:cursor-pointer rounded-lg overflow-hidden w-xs">
       <img
         src={image}
         alt={title}
